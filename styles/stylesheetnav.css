@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Special+Elite&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+/* Flexbox nav bar*/
+.nav-list{
+	background-color: #000000;
+	border-radius: 25px;
+	margin: 0;
+	padding: 1rem 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.nav-item{
+	list-style: none;
+	margin-right: 2rem;
+}
+
+
+
+
+
+/* Flexbox nav bar END*/
+
+li, a, button{
+	font-family: 'Special Elite', sans-serif;
+	font-size: 20px;
+	color: #ffffff;
+	text-decoration: none;
+
+}
+
+nav {color: #FFFFFF; text-align: center;}
+
+a:link { margin-right: 40px; margin-left: 40px;}
+
+a:hover {text-decoration: underline;}
+
+
+
+header{
+	padding: 40px 0px 40px 0px;
+}
+
+
+.logo{
+	cursor: pointer;
+}
+
+.nav__links{
+	list-style: none;
+
+}
+
+.nav__links li{
+	display: inline-block;
+	padding: 0px 20px;
+
+}
+
+.nav__links li a{
+	transition: all 0.3s ease 0s;
+
+}
+
+.nav__links li a:hover {
+	color: #ff9b00;
+	text-decoration: underline;
+
+}
